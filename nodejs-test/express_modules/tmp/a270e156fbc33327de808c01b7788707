@@ -1,0 +1,161 @@
+
+
+First Request for Single Trip
+-----------------------------------------
+
+{
+  "PricingRequest": {
+    "GUID": "",
+    "bookingIATA": "",
+    "bookingCountryCode": "AE",
+    "bookingCurrency": "AED",
+    "validatingCarrier": "FZ",
+    "channel": "ENT",
+    "subChannel": "Consumer",
+    "promoCode": "",
+    "pointOfOrigin": "DXB",
+    "tripType": "OneWay",
+    "flxTax": "true",
+    "passengers": {
+      "passenger": [
+        {
+          "passengerID": "1",
+          "PTCID": "1",
+          "DOB": ""
+        }
+      ]
+    },
+    "originDestinations": {
+      "originDestination": [
+        {
+          "lfId": "10709801",
+          "origin": "ADD",
+          "destination": "DXB",
+          "depDateTime": "2018-04-10",
+          "cabinAvail": [],
+          "legDetails": {
+            "legDetail": [
+              {
+                "pfId": "113517",
+                "origin": "ADD",
+                "destination": "DXB",
+                "depDateTime": "2018-04-10",
+                "marketingFlt": {
+                  "carrierCode": "FZ",
+                  "flightNum": "648"
+                },
+                "operatingFlt": {
+                  "carrierCode": "FZ",
+                  "flightNum": "648"
+                }
+              }
+            ]
+          },
+          "paxFareDetails": {
+            "fare": [
+              {
+                "FBC": "QOXF8ET5",
+                "fareClass": "",
+                "seatsAvail": "",
+                "pax": [1],
+                "ovrrdBaseFareAmt": "",
+                "baseFareAmt": "",
+                "fareType": "",
+                "cabin": ""
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+
+Response
+------------
+Success
+
+
+
+Second Request for Single Trip
+------------------------------------------------------
+{
+  "PricingRequest": {
+    "GUID": "",
+    "bookingIATA": "",
+    "bookingCountryCode": "AE",
+    "bookingCurrency": "AED",
+    "validatingCarrier": "FZ",
+    "channel": "ENT",
+    "subChannel": "Consumer",
+    "promoCode": "",
+    "pointOfOrigin": "DXB",
+    "tripType": "OneWay",
+    "flxTax": "true",
+    "passengers": {
+      "passenger": [
+        {
+          "passengerID": "1",
+          "PTCID": "1",
+          "DOB": ""
+        }
+      ]
+    },
+    "originDestinations": {
+      "originDestination": [
+        {
+          "lfId": "1223",
+          "origin": "DXB",
+          "destination": "KTM",
+          "depDateTime": "2018-05-10T00:00:00",
+          "cabinAvail": [],
+          "legDetails": {
+            "legDetail": [
+              {
+                "pfId": "1121",
+                "origin": "DXB",
+                "destination": "KTM",
+                "depDateTime": "2018-05-10T00:00:00",
+                "marketingFlt": {
+                  "carrierCode": "FZ",
+                  "flightNum": "575"
+                },
+                "operatingFlt": {
+                  "carrierCode": "FZ",
+                  "flightNum": "575"
+                }
+              }
+            ]
+          },
+          "paxFareDetails": {
+            "fare": [
+              {
+                "FBC": "",
+                "fareClass": "",
+                "seatsAvail": "",
+                "pax": [],
+                "ovrrdBaseFareAmt": "",
+                "baseFareAmt": "",
+                "fareType": "",
+                "cabin": ""
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+
+Response
+---------------
+{
+    "PricingResponse": {
+        "GUID": "",
+        "bookingIATA": "",
+        "bookingCountryCode": "AE",
+        "bookingCurrency": "AED",
+        "validatingCarrier": "FZ",
+        "channel": "ENT"
+    }
+}

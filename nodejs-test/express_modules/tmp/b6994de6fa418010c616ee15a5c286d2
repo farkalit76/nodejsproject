@@ -1,0 +1,177 @@
+{
+  "currency": "AED",
+  "IATA": "",
+  "securityGUID": "a233d38b83a6s488u4wfe7j56b90r7a27592795767f6",
+  "originDestinations": [
+    {
+      "odID": 10709610,
+      "origin": "DXB",
+      "destination": "BEY",
+      "flightNum": "FZ159",
+      "depDate": "2018-05-10T18:55:00",
+      "fareBrand": [
+        {
+          "fareBrandID": 1,
+          "fareBrand": "Pay To Change",
+          "fareInfos": [
+            {
+              "paxFareInfos": [
+                {
+                  "applicableTaxDetails": [
+                    {
+                      "amt": 35,
+                      "taxCode": "F6",
+                      "taxID": 8745
+                    },
+                    {
+                      "amt": 75,
+                      "taxCode": "AE",
+                      "taxID": 1624
+                    },
+                    {
+                      "amt": 5,
+                      "taxCode": "TP",
+                      "taxID": 4844
+                    },
+                    {
+                      "amt": 5,
+                      "taxCode": "ZR",
+                      "taxID": 6208
+                    },
+                    {
+                      "amt": 10,
+                      "taxCode": "H4",
+                      "taxID": 9286
+                    },
+                    {
+                      "amt": 45,
+                      "taxCode": "YQ",
+                      "taxID": 4246
+                    }
+                  ],
+                  "cabin": "ECONOMY",
+                  "FBC": "QR6AE2",
+                  "fareID": 77,
+                  "ID": "1",
+                  "PTC": 1,
+                  "ruleID": "-10% MEASC Sneaky Fare 5Jun'18",
+                  "originalFare": 250,
+                  "baseFare": 225,
+                  "totalFare": 400,
+                  "secureHash": "qqJRKgcubhpVlpfuogo80A==",
+                  "fareCarrier": "FZ",
+                  "ticketDesignator": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "segmentDetails": [
+        {
+          "segmentID": 10709610,
+          "origin": "DXB",
+          "destination": "BEY",
+          "depDate": "2018-05-10T18:55:00",
+          "arrDate": "2018-05-10T21:55:00",
+          "bookingCodes": [
+            {
+              "fareClass": "Q",
+              "cabin": "ECONOMY",
+              "paxID": [
+                "1"
+              ]
+            }
+          ],
+          "OAFlight": false,
+          "operCarrier": "FZ",
+          "operFlightNum": "159",
+          "mrktCarrier": "FZ",
+          "mrktFlightNum": "159",
+          "depTerminal": "",
+          "arrTerminal": ""
+        }
+      ]
+    },
+    {
+      "odID": 10709611,
+      "origin": "BEY",
+      "destination": "DXB",
+      "flightNum": "FZ160",
+      "depDate": "2018-05-22T22:55:00",
+      "fareBrand": [
+        {
+          "fareBrandID": 1,
+          "fareBrand": "Pay To Change",
+          "fareInfos": [
+            {
+              "paxFareInfos": [
+                {
+                  "applicableTaxDetails": [
+                    {
+                      "amt": 5,
+                      "taxCode": "ZR",
+                      "taxID": 6208
+                    },
+                    {
+                      "amt": 10,
+                      "taxCode": "H4",
+                      "taxID": 9286
+                    },
+                    {
+                      "amt": 45,
+                      "taxCode": "YQ",
+                      "taxID": 4246
+                    },
+                    {
+                      "amt": 130,
+                      "taxCode": "LB",
+                      "taxID": 6525
+                    }
+                  ],
+                  "cabin": "ECONOMY",
+                  "FBC": "QR6AE2",
+                  "fareID": 54,
+                  "ID": "1",
+                  "PTC": 1,
+                  "ruleID": "-10% MEASC Sneaky Fare 5Jun'18",
+                  "originalFare": 250,
+                  "baseFare": 225,
+                  "totalFare": 415,
+                  "secureHash": "tOYXIQq3JJK6gK6hoZqKDA==",
+                  "fareCarrier": "FZ",
+                  "ticketDesignator": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "segmentDetails": [
+        {
+          "segmentID": 10709611,
+          "origin": "BEY",
+          "destination": "DXB",
+          "depDate": "2018-05-22T22:55:00",
+          "arrDate": "2018-05-23T03:50:00",
+          "bookingCodes": [
+            {
+              "fareClass": "Q",
+              "cabin": "ECONOMY",
+              "paxID": [
+                "1"
+              ]
+            }
+          ],
+          "OAFlight": false,
+          "operCarrier": "FZ",
+          "operFlightNum": "160",
+          "mrktCarrier": "FZ",
+          "mrktFlightNum": "160",
+          "depTerminal": "",
+          "arrTerminal": ""
+        }
+      ]
+    }
+  ]
+}
